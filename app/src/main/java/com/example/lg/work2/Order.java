@@ -54,8 +54,8 @@ public class Order extends AppCompatActivity {
                 if(cb.isChecked()){
                     result *= 0.9;
                 }
-                tv_cnt.setText(Integer.toString(cnt));
-                tv_price.setText(Integer.toString(result));
+                tv_cnt.setText(Integer.toString(cnt)+"개");
+                tv_price.setText(Integer.toString(result)+"원");
             }
         });
     }
